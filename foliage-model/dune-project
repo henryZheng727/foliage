@@ -1,0 +1,26 @@
+(lang dune 3.20)
+
+(name foliage-model)
+
+(generate_opam_files true)
+
+(source
+ (github henryZheng727/foliage))
+
+(authors "Henry Zheng <henry.zheng727@gmail.com>")
+
+; (maintainers "Maintainer Name <maintainer@example.com>")
+
+(license LICENSE)
+
+(documentation https://url/to/documentation)
+
+(package
+ (name foliage-model)
+ (synopsis "first-order logic proof assistant")
+ (description "A longer description")
+ (depends ocaml)
+ (tags
+  ("first order logic" "proof assistant")))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html

@@ -1,0 +1,4 @@
+(executable
+ (public_name foliage-model)
+ (name main)
+ (libraries foliage_model))
