@@ -11,6 +11,8 @@ bug-reports: "https://github.com/henryZheng727/foliage/issues"
 depends: [
   "dune" {>= "3.20"}
   "ocaml"
+  "js_of_ocaml"
+  "js_of_ocaml-ppx"
   "odoc" {with-doc}
 ]
 build: [

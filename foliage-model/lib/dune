@@ -1,2 +1,5 @@
 (library
  (name foliage_model))
+
+(ocamllex lexer)
+(ocamlyacc parser)
