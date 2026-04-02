@@ -19,7 +19,7 @@
  (name foliage-model)
  (synopsis "first-order logic proof assistant")
  (description "A longer description")
- (depends ocaml)
+ (depends ocaml js_of_ocaml js_of_ocaml-ppx)
  (tags
   ("first order logic" "proof assistant")))
 

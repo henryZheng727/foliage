@@ -1,4 +1,6 @@
 (executable
  (public_name foliage-model)
  (name main)
- (libraries foliage_model))
+ (modes byte js)
+ (libraries foliage_model js_of_ocaml)
+ (preprocess (pps js_of_ocaml-ppx)))
