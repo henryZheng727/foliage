@@ -1,0 +1,8 @@
+1 | | ~(A + ~A) by Assumption
+2 | | | A       by Assumption
+3 | | | A + ~A  by +Intro: 2
+4 | | | False   by ->Elim: 3, 1
+5 | | ~A        by ->Intro: 2-4
+6 | | A + ~A    by +Intro: 5
+7 | | False     by ->Elim: 1, 6
+8 | ~~(A + ~A)  by ->Intro: 1-7

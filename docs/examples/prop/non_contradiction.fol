@@ -1,0 +1,5 @@
+1 | | A & ~A    by Assumption
+2 | | A         by &Elim: 1
+3 | | ~A        by &Elim: 1
+4 | | False     by ->Elim: 3, 2
+5 | ~(A & ~A)   by ->Intro: 1-4

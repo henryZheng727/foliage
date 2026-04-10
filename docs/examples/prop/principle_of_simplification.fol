@@ -1,0 +1,5 @@
+1 | | P             by Assumption
+2 | | | Q           by Assumption
+3 | | | P           by Reit: 1
+4 | | Q -> P        by ->Intro: 2-3
+5 | P -> (Q -> P)   by ->Intro: 1-4
