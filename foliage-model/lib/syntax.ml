@@ -5,6 +5,7 @@ type prop =
         | Or of prop * prop
         | Implies of prop * prop
         | Not of prop
+        | True
         | False
 
 let rec prop_to_string = function

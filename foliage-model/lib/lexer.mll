@@ -10,10 +10,11 @@ rule token = parse
   | whitespace+   { token lexbuf }
   | '('           { LPAREN }
   | ')'           { RPAREN }
-  | "/\\"         { AND }
-  | "\\/"         { OR }
+  | "&"         { AND }
+  | "+"         { OR }
   | "->"          { IMPLIES }
-  | '~'           { NOT }
+  | "~"           { NOT }
+  | "True"        { TRUE }
   | "False"       { FALSE }
   | ident as s    { ATOM s }
   | eof           { EOF }
